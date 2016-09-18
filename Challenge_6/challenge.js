@@ -13,6 +13,7 @@ Using the loop provided for you below, use an array's push method to insert the 
 for(var i=0;i<10;i++){
     //use the array push() method here.
     numbers.push(i);
+    console.log(numbers);
 }
 
 
@@ -22,7 +23,7 @@ Test that you used the array push method correctly by printing the sum of the va
 The outputted value should be 9.
 */
 
-console.log(number[3] + number[6]);
+console.log(numbers[3] + numbers[6]);
 
 
 /*
@@ -33,7 +34,7 @@ Use the console.log() function and the array .pop() to add all the values in the
 var sum = 0;
 
 while(numbers.length != 0){
-    sum = sum + number.pop();
+    sum = sum + numbers.pop();
 }
 
 console.log(sum);
@@ -52,6 +53,5 @@ Give the car object a property called "colour" and assign it the value of "black
 */
 car = {colour: "black"}
 console.log(car.colour);
-
 
 
